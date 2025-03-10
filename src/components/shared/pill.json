@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_pills",
+  "info": {
+    "displayName": "Pill"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_shared_contextual_messages",
+  "info": {
+    "displayName": "Contextual Message"
+  },
+  "options": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "message": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "state": {
+      "type": "enumeration",
+      "enum": [
+        "Danger",
+        "Warning",
+        "Neutral",
+        "Positive"
+      ],
+      "required": true,
+      "default": "Neutral"
+    }
+  }
+}

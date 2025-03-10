@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_table_rows",
+  "info": {
+    "displayName": "Table Row",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "boolean"
+    },
+    "cells": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.table-cell"
+    },
+    "style": {
+      "type": "string"
+    }
+  }
+}

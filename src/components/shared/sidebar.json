@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_sidebars",
+  "info": {
+    "displayName": "Sidebar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category_selector": {
+      "type": "component",
+      "repeatable": false,
+      "component": "category.category-group-dropdown"
+    },
+    "sidebar_sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.sidebar-section"
+    }
+  }
+}

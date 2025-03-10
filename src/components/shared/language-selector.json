@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_language_selectors",
+  "info": {
+    "displayName": "Language Selector",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "languages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::language.language"
+    }
+  }
+}

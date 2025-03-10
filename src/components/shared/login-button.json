@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_login_buttons",
+  "info": {
+    "displayName": "Login Button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "token_variable": {
+      "type": "string"
+    },
+    "login_url": {
+      "type": "string"
+    }
+  }
+}

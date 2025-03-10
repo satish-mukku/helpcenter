@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_mobile_logos",
+  "info": {
+    "displayName": "Mobile Logo"
+  },
+  "options": {},
+  "attributes": {
+    "mobile_logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

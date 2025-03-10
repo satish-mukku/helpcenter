@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_article_article_image_cards",
+  "info": {
+    "displayName": "Article Image Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    }
+  }
+}

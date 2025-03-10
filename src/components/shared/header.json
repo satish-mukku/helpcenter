@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_shared_headers",
+  "info": {
+    "displayName": "Header",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.logo"
+    },
+    "mobile_logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.mobile-logo"
+    },
+    "user_login": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.login-button"
+    },
+    "language_selector": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.language-selector"
+    },
+    "pill": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.pill"
+    },
+    "search_bar": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.search-bar"
+    }
+  }
+}

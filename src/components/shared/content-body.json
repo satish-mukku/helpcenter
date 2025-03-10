@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_shared_content_bodies",
+  "info": {
+    "displayName": "Content Body",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    },
+    "display_component": {
+      "type": "enumeration",
+      "enum": [
+        "card_carousel",
+        "list"
+      ]
+    },
+    "section_size": {
+      "type": "enumeration",
+      "enum": [
+        "full",
+        "half"
+      ]
+    },
+    "max_display_items": {
+      "type": "integer"
+    },
+    "topics": {
+      "type": "boolean"
+    }
+  }
+}

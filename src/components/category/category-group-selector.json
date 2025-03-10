@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_category_category_group_selectors",
+  "info": {
+    "displayName": "Category Group Selector"
+  },
+  "options": {},
+  "attributes": {
+    "category_groups": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category-group.category-group"
+    }
+  }
+}

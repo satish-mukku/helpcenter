@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_category_image_card_carousels",
+  "info": {
+    "displayName": "Image Card Carousel"
+  },
+  "options": {},
+  "attributes": {
+    "carousel_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "article.article-image-card"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    }
+  }
+}

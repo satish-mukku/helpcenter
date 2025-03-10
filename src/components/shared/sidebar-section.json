@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_sidebar_sections",
+  "info": {
+    "displayName": "Sidebar Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
+    },
+    "group_by_product": {
+      "type": "boolean",
+      "default": false
+    },
+    "group_by_topics": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

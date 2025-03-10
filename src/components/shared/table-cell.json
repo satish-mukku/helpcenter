@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_table_cells",
+  "info": {
+    "displayName": "Table Cell",
+    "description": ""
+  },
+  "options": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "label": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_classifications",
+  "info": {
+    "singularName": "content-classification",
+    "pluralName": "content-classifications",
+    "displayName": "Content Classification",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "public": {
+      "type": "boolean"
+    },
+    "regions": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::region.region",
+      "inversedBy": "content_classifications"
+    },
+    "platforms": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::platform.platform",
+      "inversedBy": "content_classifications"
+    },
+    "user_roles": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::user-role.user-role",
+      "inversedBy": "content_classifications"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article",
+      "mappedBy": "content_classification"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category",
+      "mappedBy": "content_classification"
+    },
+    "category_groups": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category-group.category-group",
+      "mappedBy": "content_classification"
+    },
+    "topics": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::topic.topic",
+      "mappedBy": "content_classification"
+    },
+    "systems": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::system.system",
+      "inversedBy": "content_classifications"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product.product",
+      "mappedBy": "content_classifications"
+    }
+  }
+}

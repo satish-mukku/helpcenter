@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_links",
+  "info": {
+    "displayName": "Link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "linkIcon": {
+      "type": "string",
+      "default": "north_east"
+    },
+    "displayIcon": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

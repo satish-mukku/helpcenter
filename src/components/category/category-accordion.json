@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_category_category_accordions",
+  "info": {
+    "displayName": "Category Accordion"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    }
+  }
+}

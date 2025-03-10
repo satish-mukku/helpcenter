@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_search_bars",
+  "info": {
+    "displayName": "Search Bar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "topics": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::topic.topic"
+    },
+    "search_api": {
+      "type": "string"
+    }
+  }
+}

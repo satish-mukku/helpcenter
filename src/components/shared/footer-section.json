@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_shared_footer_sections",
+  "info": {
+    "displayName": "Footer Section",
+    "description": ""
+  },
+  "options": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "label": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "footer_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.footer-link"
+    },
+    "copyright": {
+      "type": "blocks"
+    },
+    "max_colums": {
+      "type": "integer"
+    }
+  }
+}

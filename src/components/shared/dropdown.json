@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_dropdowns",
+  "info": {
+    "displayName": "dropdown"
+  },
+  "options": {},
+  "attributes": {
+    "tilte": {
+      "type": "string"
+    }
+  }
+}

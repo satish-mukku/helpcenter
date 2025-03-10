@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_article_content_sections",
+  "info": {
+    "displayName": "Content Section"
+  },
+  "options": {},
+  "attributes": {
+    "message": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.contextual-message"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image"
+    },
+    "video": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.video"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.title"
+    },
+    "table": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.table-cell"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_article_section_titles",
+  "info": {
+    "displayName": "Article Section Title",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

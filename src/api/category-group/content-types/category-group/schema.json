@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category_groups",
+  "info": {
+    "singularName": "category-group",
+    "pluralName": "category-groups",
+    "displayName": "Category Group",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "mappedBy": "category_groups"
+    },
+    "content_classification": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::content-classification.content-classification",
+      "inversedBy": "category_groups"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::article.article",
+      "mappedBy": "category_groups"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product.product",
+      "mappedBy": "category_groups"
+    }
+  }
+}
