@@ -1,0 +1,54 @@
+version: "3.9"
+services:
+  strapi:
+    image: strapi/strapi:latest
+    ports:
+      - "1337:1337"
+    volumes:
+      - strapi-data:/app/data
+    environment:
+      DATABASE_CLIENT: postgres
+      DATABASE_HOST: db
+      DATABASE_PORT: 5432
+      DATABASE_NAME: strapi_db
+      DATABASE_USERNAME: strapi_user
+      DATABASE_PASSWORD: strapi_password
+      JWT_SECRET: some_jwt_secret
+      ADMIN_JWT_SECRET: some_admin_jwt_secret
+      STRAPI_PLUGIN_SEARCH_PROVIDER: elastic
+      STRAPI_PLUGIN_SEARCH_ELASTIC_HOST: elasticsearch
+      STRAPI_PLUGIN_SEARCH_ELASTIC_PORT: 9200
+      STRAPI_PLUGIN_SEARCH_ELASTIC_INDEX: strapi
+      STRAPI_PLUGIN_SEARCH_ELASTIC_USERNAME: elastic
+      STRAPI_PLUGIN_SEARCH_ELASTIC_PASSWORD: password
+    depends_on:
+      - db
+      - elasticsearch
+
+  db:
+    image: postgres:13
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: strapi_user
+      POSTGRES_PASSWORD: strapi_password
+      POSTGRES_DB: strapi_db
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.1
+    ports:
+      - "9200:9200"
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=true
+      - ELASTIC_PASSWORD=password
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    volumes:
+      - es-data:/usr/share/elasticsearch/data
+
+volumes:
+  strapi-data:
+  db-data:
+  es-data:

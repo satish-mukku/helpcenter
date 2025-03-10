@@ -1803,10 +1803,10 @@
     react-query "3.39.3"
     react-select "5.7.0"
 
-"@strapi/helper-plugin@4.25.18":
-  version "4.25.18"
-  resolved "https://registry.npmjs.org/@strapi/helper-plugin/-/helper-plugin-4.25.18.tgz"
-  integrity sha512-pYkZGrtAB/Tb+khIsLN/yqBTQp6MR2PUkfe/8mVVT252aYR8yvo7vjZ0GdxbrmsBFelPWGaxrwNXSSaSgcjRYw==
+"@strapi/helper-plugin@4.25.20":
+  version "4.25.20"
+  resolved "https://registry.npmjs.org/@strapi/helper-plugin/-/helper-plugin-4.25.20.tgz"
+  integrity sha512-QBEwGcG676xc3irOY3gwdrG0wqbI7UtCTm8opcni8D/jARsr4JW/OvdiXmiuWDLWvVrczRtrkeqQ2pBWevX/dg==
   dependencies:
     axios "1.7.4"
     date-fns "2.30.0"
@@ -1939,16 +1939,16 @@
     yup "0.32.9"
 
 "@strapi/plugin-graphql@^4.0.5":
-  version "4.25.18"
-  resolved "https://registry.npmjs.org/@strapi/plugin-graphql/-/plugin-graphql-4.25.18.tgz"
-  integrity sha512-vGcrLXYDCT77ogBpHfPsx/Nt1IymnNCljD7jQF76WB2sCN2lXe3GvJHWLSujB5NC7TsmGqBHCu100YID7AsYHw==
+  version "4.25.20"
+  resolved "https://registry.npmjs.org/@strapi/plugin-graphql/-/plugin-graphql-4.25.20.tgz"
+  integrity sha512-WDDo54/od0LcgOoEGM0xrwepRxTqMethuetyl4jB3Q1hb7cBR6760kDJU43qYrMTY9uny3OK8J8WOXMNErZmjg==
   dependencies:
     "@graphql-tools/schema" "8.5.1"
     "@graphql-tools/utils" "^8.13.1"
     "@strapi/design-system" "1.19.0"
-    "@strapi/helper-plugin" "4.25.18"
+    "@strapi/helper-plugin" "4.25.20"
     "@strapi/icons" "1.19.0"
-    "@strapi/utils" "4.25.18"
+    "@strapi/utils" "4.25.20"
     apollo-server-core "3.12.1"
     apollo-server-koa "3.10.0"
     graphql "^15.5.1"
@@ -2201,10 +2201,10 @@
     p-map "4.0.0"
     yup "0.32.9"
 
-"@strapi/utils@4.25.18":
-  version "4.25.18"
-  resolved "https://registry.npmjs.org/@strapi/utils/-/utils-4.25.18.tgz"
-  integrity sha512-i2QqZCF39iJwijHmqTwhMFb8MIskFt+nusqvW45YqWAvb94Ck8da4RAbcxamxNtTCYd14Dgu35+6mJy9bqZ9qA==
+"@strapi/utils@4.25.20":
+  version "4.25.20"
+  resolved "https://registry.npmjs.org/@strapi/utils/-/utils-4.25.20.tgz"
+  integrity sha512-GyZ1LXx0Wt4psJwGMd52DF2fKsarh+N8UEChGOsYuLEvo0pPjxN1RkUKArlzyLgh5u0fk08/uPbwdjLWQ3QgYg==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "2.30.0"
@@ -4066,7 +4066,7 @@ convert-source-map@^2.0.0:
   resolved "https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz"
   integrity sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==
 
-cookie-signature@^1.2.1:
+cookie-signature@^1.2.2:
   version "1.2.2"
   resolved "https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.2.2.tgz"
   integrity sha512-D76uU73ulSXrD1UXF4KE2TMxVVwhsnCgfAyTg9k8P6KGZjlXKrOLe4dJQKI3Bxi5wjesZoFXJWElNWBjPZMbhg==
@@ -4076,10 +4076,10 @@ cookie@^0.4.1:
   resolved "https://registry.npmjs.org/cookie/-/cookie-0.4.2.tgz"
   integrity sha512-aSWTXFzaKWkvHO1Ny/s+ePFpvKsPnjc551iI41v3ny/ow6tBG5Vd+FuqGNhh1LxOmVzOlGUriIlOaokOvhaStA==
 
-cookie@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.npmjs.org/cookie/-/cookie-0.6.0.tgz"
-  integrity sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==
+cookie@^0.7.2:
+  version "0.7.2"
+  resolved "https://registry.npmjs.org/cookie/-/cookie-0.7.2.tgz"
+  integrity sha512-yki5XnKuf750l50uGTllt6kKILY4nQ1eNIQatoXEByZ5dWgnKqbnqmTrBE5B4N7lrMJKQ2ytWMiTO2o0v6Ew/w==
 
 cookies@~0.8.0:
   version "0.8.0"
@@ -5542,17 +5542,17 @@ grant-koa@5.4.8:
     grant "^5.4.8"
 
 grant@^5.4.8:
-  version "5.4.23"
-  resolved "https://registry.npmjs.org/grant/-/grant-5.4.23.tgz"
-  integrity sha512-lEMfgem990lWTU+j9jbOKmIsvvetVlwGzsWjoCgKz9zKcP7edI6mjyUA5QUSn7aeBYONTE3WnfhBhvONQGP1Hg==
+  version "5.4.24"
+  resolved "https://registry.npmjs.org/grant/-/grant-5.4.24.tgz"
+  integrity sha512-PD5AvSI7wgCBDi2mEd6M/TIe+70c/fVc3Ik4B0s4mloWTy9J800eUEcxivOiyqSP9wvBy2QjWq1JR8gOfDMnEg==
   dependencies:
-    qs "^6.13.0"
+    qs "^6.14.0"
     request-compose "^2.1.7"
     request-oauth "^1.0.1"
   optionalDependencies:
-    cookie "^0.6.0"
-    cookie-signature "^1.2.1"
-    jwk-to-pem "^2.0.6"
+    cookie "^0.7.2"
+    cookie-signature "^1.2.2"
+    jwk-to-pem "^2.0.7"
     jws "^4.0.0"
 
 graphql-depth-limit@^1.1.0:
@@ -6549,7 +6549,7 @@ jwa@^2.0.0:
     ecdsa-sig-formatter "1.0.11"
     safe-buffer "^5.0.1"
 
-jwk-to-pem@^2.0.6:
+jwk-to-pem@^2.0.7:
   version "2.0.7"
   resolved "https://registry.npmjs.org/jwk-to-pem/-/jwk-to-pem-2.0.7.tgz"
   integrity sha512-cSVphrmWr6reVchuKQZdfSs4U9c5Y4hwZggPoz6cbVnTpAVgGRpEuQng86IyqLeGZlhTh+c4MAreB6KbdQDKHQ==
@@ -8317,12 +8317,12 @@ qs@^6.10.3, qs@^6.4.0, qs@^6.5.2, qs@^6.9.6, qs@6.11.1:
   dependencies:
     side-channel "^1.0.4"
 
-qs@^6.13.0:
-  version "6.13.1"
-  resolved "https://registry.npmjs.org/qs/-/qs-6.13.1.tgz"
-  integrity sha512-EJPeIn0CYrGu+hli1xilKAPXODtJ12T0sP63Ijx2/khC2JtuaN3JyNIpvmnkmaEtha9ocbG4A4cMcr+TvqvwQg==
+qs@^6.14.0:
+  version "6.14.0"
+  resolved "https://registry.npmjs.org/qs/-/qs-6.14.0.tgz"
+  integrity sha512-YWWTjgABSKcvs/nWBi9PycY/JiPJqOD4JA6o9Sej2AtvSGarXxKC3OQSk4pAarbdQlKAh5D4FCQkJNkW+GAn3w==
   dependencies:
-    side-channel "^1.0.6"
+    side-channel "^1.1.0"
 
 queue-microtask@^1.2.2:
   version "1.2.3"
@@ -9251,7 +9251,7 @@ side-channel-weakmap@^1.0.2:
     object-inspect "^1.13.3"
     side-channel-map "^1.0.1"
 
-side-channel@^1.0.4, side-channel@^1.0.6:
+side-channel@^1.0.4, side-channel@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/side-channel/-/side-channel-1.1.0.tgz"
   integrity sha512-ZX99e6tRweoUXqR+VBrslhda51Nh5MTQwou5tnUDgbtyM0dBgmhEDtWGP/xbKn6hqfPRHujUNwz5fy/wbbhnpw==
