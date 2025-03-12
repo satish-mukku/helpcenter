@@ -1,42 +1,43 @@
 {
+  "name": "paysafe-helpcenter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "seed:example": "node ./scripts/seed.js",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
   "dependencies": {
-    "@geeky-biz/strapi-plugin-elasticsearch": "^0.0.8",
-    "@strapi/plugin-cloud": "4.21.1",
-    "@strapi/plugin-graphql": "^4.0.5",
-    "@strapi/plugin-i18n": "4.21.1",
-    "@strapi/plugin-users-permissions": "4.21.1",
-    "@strapi/strapi": "4.21.1",
-    "better-sqlite3": "8.6.0",
+    "@strapi/plugin-cloud": "5.11.0",
+    "@strapi/plugin-users-permissions": "5.11.0",
+    "@strapi/strapi": "5.11.0",
+    "better-sqlite3": "11.3.0",
     "fs-extra": "^10.0.0",
-    "lodash.set": "^4.3.2",
     "mime-types": "^2.1.27",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-router-dom": "5.3.4",
-    "scheduler": "^0.25.0",
-    "strapi-gtm-module": "^0.0.5",
-    "strapi-plugin-import-export-entries": "^1.23.1",
-    "styled-components": "5.3.3"
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
   },
-  "name": "paysafe-content-management",
-  "private": true,
-  "version": "0.1.0",
-  "description": "Paysafe Content Management",
-  "scripts": {
-    "develop": "strapi develop",
-    "start": "strapi develop",
-    "build": "strapi build",
-    "strapi": "strapi develop"
-  },
-  "author": {
-    "name": "A Strapi developer"
-  },
-  "strapi": {
-    "template": "blog"
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
   },
   "engines": {
-    "node": ">=18.0.0 <=20.x.x",
+    "node": ">=18.0.0 <=22.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "strapi": {
+    "uuid": "03aa634d-f7d8-4baf-b3fe-6867fea2cc15"
+  }
 }
